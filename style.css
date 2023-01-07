@@ -74,14 +74,15 @@ section{
     font-weight: 500;
     font-size: 20px;
     padding:60px 0px 150px 64px;
+    margin-right:59px 617px 147px 64px;
 }
 .btn{
     
     padding:20px 60px;
     margin-top:24px;
-    width: 100px;
-    height: 30px;
-    color:black;
+    width: 160px;
+    height: 64px;
+    color:rgb(233, 253, 54);
     
 }
 
