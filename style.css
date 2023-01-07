@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner style */
+.banner{
+    
+    position:absolute;
+    background-image:url('images/banner/banner1.png');
+    text-align: right;
+    background-size: cover;
+    background-position: 100%;
+    padding: 227px 230px 0 844px;
+}
+.banner-title{
+    overflow: hidden;
+ padding-bottom:5px;
+ 
+
+}
+.banner-discription{
+margin-top:20px;
+overflow: hidden;
+color:rgb(49, 58, 58);
+}
+.btn{
+    margin-top:32px;
+    margin-bottom:160px;
+    background-color:#f36b36;
+    border-radius: 5px;
+    border:0;
+    padding:15px 20px;
+}
