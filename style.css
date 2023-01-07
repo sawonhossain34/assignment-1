@@ -3,31 +3,58 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* banner style */
-.banner{
+main{
     
-    position:absolute;
-    background-image:url('images/banner/banner1.png');
-    text-align: right;
-    background-size: cover;
-    background-position: 100%;
-    padding: 227px 230px 0 844px;
 }
-.banner-title{
-    overflow: hidden;
- padding-bottom:5px;
- 
+.section1{
+    display: flex;
+    align-items: center;
+    margin:83px 170px 0 100px;
+}
+.person-image{
+    padding:20px 0px 0px 30px;
+    background-color: rgb(155, 146, 146);
+}
+.person-about{
+    margin:100px;
+    
 
 }
-.banner-discription{
-margin-top:20px;
-overflow: hidden;
-color:rgb(49, 58, 58);
+.person-title{
+    font-weight: 800;
+    font-size:50px;
+    line-height: 50px;
+    margin-bottom: 24px;
 }
-.btn{
-    margin-top:32px;
-    margin-bottom:160px;
-    background-color:#f36b36;
-    border-radius: 5px;
-    border:0;
-    padding:15px 20px;
+.person-discription{
+
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+}
+.point{
+    margin-top:16px;
+    padding-right: px;
+}
+/* person style end */
+/* plan style start */
+.plan{
+    text-align: center;
+    margin-top:75px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display:flex;
+    gap:250px;
+}
+section{
+    margin:0px 230px;
+}
+.plan-container img, h4, p{
+    text-align: justify;
+}
+.plan-container p{
+    width: 150px;
 }
