@@ -50,7 +50,7 @@ line-height: 26px;
     gap:250px;
 }
 section{
-    margin:0px 230px;
+    margin:153px 230px;
 }
 .plan-container img, h4, p{
     text-align: justify;
@@ -58,3 +58,31 @@ section{
 .plan-container p{
     width: 150px;
 }
+/* plan style end */
+/* call now style start */
+
+.call-now{
+    
+    
+    width: 100%;
+    height: 100%;
+    margin:153px 130px  153px 153;
+    border-radius: 5px;
+    background: url('images/watch.png') no-repeat center / cover;
+}
+.bg{
+    font-weight: 500;
+    font-size: 20px;
+    padding:60px 0px 150px 64px;
+}
+.btn{
+    
+    padding:20px 60px;
+    margin-top:24px;
+    width: 100px;
+    height: 30px;
+    color:black;
+    
+}
+
+
