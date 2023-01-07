@@ -3,10 +3,28 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* banner style */
-main{
-    
+header{
+     background-color: #cfc5c1;
+    background-image: url('images/banner/banner1.png') cover; 
 }
-.section1{
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.head-banner{
+    height: 200px;
+    width:200px;
+    margin-right: 50px;
+}
+.head-contant{
+    display: flex;
+    padding-top:150px;
+    margin-right: 300px;
+}
+    
+
+.section1{padding: 400px;
     display: flex;
     align-items: center;
     margin:83px 170px 0 100px;
@@ -14,6 +32,7 @@ main{
 .person-image{
     padding:20px 0px 0px 30px;
     background-color: rgb(155, 146, 146);
+    margin-right: 50px;
 }
 .person-about{
     margin:100px;
@@ -85,5 +104,59 @@ section{
     color:rgb(233, 253, 54);
     
 }
+/* footer style */
+footer{
+    background-color: black;
+}
+.footer-contant{
+    display:flex;
+    margin:165px 230px 94px;
+    justify-content: space-betweens;
+    padding-bottom: 100px;
 
 
+}
+.footer-left{
+    color:white;
+    
+    margin-top:165px;
+}
+
+
+.discription{
+    margin:16px 0px 24px 0px;
+}
+.email{ margin-bottom: 16px;
+}
+.phone{margin-bottom:32px; 
+}
+.social-icon a{
+    margin-right: 
+    10px;
+    
+}
+
+
+
+.footer-right{
+    margin-top:165px;
+    margin-left:200px;
+}
+.subscribe{
+    color:white;
+    margin-bottom: 31px;
+    
+
+}
+.email2{padding: 21px;
+    width:200px;
+   margin-right: 229px;
+    color:black;
+    border-radius: 10px;
+}
+.submit{width:200px;
+    border-radius:5px ;
+    padding:20px 0;
+    margin-right: 383px;
+}
+.submit span {color:#F15B22;}
